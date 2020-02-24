@@ -1,0 +1,15 @@
+current directory: /Users/kawainatsuki/Projects/steep_test_sample/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/kawainatsuki/.rbenv/versions/2.7.0/bin/ruby -I /Users/kawainatsuki/.rbenv/versions/2.7.0/lib/ruby/2.7.0 -r ./siteconf20200224-73800-tmnupt.rb extconf.rb
+creating Makefile
+
+current directory: /Users/kawainatsuki/Projects/steep_test_sample/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/kawainatsuki/Projects/steep_test_sample/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/kawainatsuki/Projects/steep_test_sample/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20200224-73800-1lyv3ff/skiptrace/internal
