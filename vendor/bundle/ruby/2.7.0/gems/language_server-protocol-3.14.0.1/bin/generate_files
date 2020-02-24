@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+set -ex
+yarn install
+yarn run -s -- ts-node --compilerOptions '{"target":"es6"}' scripts/generateFiles.ts
